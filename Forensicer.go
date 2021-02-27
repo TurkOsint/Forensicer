@@ -14,14 +14,14 @@ var (
 func main() {
 
 	if len(os.Args) == 1 {
-		fmt.Fprintf(os.Stdout, "Using: %s file\n", os.Args[0])
+		fmt.Fprintf(os.Stdout, "Kullanılıyor: %s file\n", os.Args[0])
 		os.Exit(1)
 	}
 
 	fileInfo, err = os.Stat(os.Args[1])
 	if err != nil {
 		if os.IsNotExist(err) {
-			log.Fatal("File does not exist.")
+			log.Fatal("Dosya Girilmedi. Dosya Adı Girin.")
 		}
 	}
 
