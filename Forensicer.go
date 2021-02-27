@@ -24,12 +24,16 @@ func main() {
 			log.Fatal("Dosya Girilmedi. Dosya Adı Girin.")
 		}
 	}
-
-	fmt.Println("Dosya Adı       :", fileInfo.Name())
-	fmt.Println("Dizin           :", fileInfo.IsDir())	
-	fmt.Println("Bayt Boyutu     :", fileInfo.Size())
-	fmt.Println("İzinler         :", fileInfo.Mode())
-	fmt.Println("Son Değiştirilme:", fileInfo.ModTime())
+	
+	fmt.Println("# Proje Adı      : https://github.com/TurkOsint")
+	fmt.Println("# Proje Kodları  : https://github.com/TurkOsint/Forensicer ")
+	fmt.Println("# Kodlayan       : https://github.com/EyupErgin")
+	fmt.Println("   ")
+	fmt.Println("Dosya Adı        :", fileInfo.Name())
+	fmt.Println("Dizin            :", fileInfo.IsDir())	
+	fmt.Println("Bayt Boyutu      :", fileInfo.Size())
+	fmt.Println("İzinler          :", fileInfo.Mode())
+	fmt.Println("Son Değiştirilme :", fileInfo.ModTime())
 	fmt.Printf("Sistem Arayüzü   : %T\n", fileInfo.Sys())
 	fmt.Printf("Sistem Bilgisi   : %+v\n\n", fileInfo.Sys())
 }
