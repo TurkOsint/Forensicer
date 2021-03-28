@@ -20,7 +20,7 @@ It is a tool designed to perform **basic** forensic operations on files.
 <h2 align="left">Installing:</h2>
 
 ```
-https://github.com/IntelSights/FileInfoer.git
+git clone https://github.com/IntelSights/FileInfoer.git
 ```
 
 <h2 align="left">Using:</h2>
