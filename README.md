@@ -54,3 +54,9 @@ System Info      : (Your system's information)
 - [x] Infrastructure Will Be Changed
 - [x] Modular Building Will Be Brought
 - [x] Arguments Will Be Replaced
+
+<h2 align="left">Developers:</h2>
+
+[@EyupErgin](https://github.com/eyupergin)
+
+
