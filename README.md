@@ -2,26 +2,35 @@
   <img src="https://github.com/IntelSights/About/blob/main/img/IntelSights.png?raw=true" alt="IntelSights" width="250" />
 </p>
 
-<h1 align="center">FileForensicer</h1>
+<h1 align="center">FileInfoer</h1>
 
-Dosyalar üzerinde adli bilişim işlemlerini yapmak için tasarlanmış araçtır.
+It is a tool designed to perform basic forensic operations on files.
 
-<h2 align="left">Kurulum:</h2>
-
-```
-https://github.com/TurkOsint/FileForensicer.git
-```
-
-<h2 align="left">Kullanım:</h2>
+<h2 align="left">Installing:</h2>
 
 ```
-cd FileForensicer/
-
-./Forensicer dosyaadı 
+https://github.com/IntelSights/FileInfoer.git
 ```
+
+<h2 align="left">Using:</h2>
+
+```
+cd FileInfoer/
+
+./FileInfoer -f filename.png
+```
+
+<h2 align="left">Example:</h2>
+
+```
+cd FileInfoer/
+
+./FileInfoer -f IntelSights.png
+```
+
 
 <h2 align="left">Yapılacaklar:</h2>
 
-- [ ] Altyapı Değiştirilecek
-- [ ] Mödüler Yapı Getirilecek
-- [ ] Argümanlar Değiştirilecek
+- [x] Altyapı Değiştirilecek
+- [x] Mödüler Yapı Getirilecek
+- [x] Argümanlar Değiştirilecek
