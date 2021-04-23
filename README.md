@@ -20,23 +20,21 @@ It is a tool designed to perform **basic** forensic operations on files.
 <h2 align="left">Installing:</h2>
 
 ```
-git clone https://github.com/IntelSights/FileInfoer.git
+go get -u github.com/IntelSights/FileInfoer.git
 ```
 
 <h2 align="left">Using:</h2>
 
 ```
-cd FileInfoer/
 
-./FileInfoer -f filename.png
+FileInfoer -f filename.png
 ```
 
 <h2 align="left">Example:</h2>
 
 ```
-cd FileInfoer/
 
-./FileInfoer -f IntelSights.png
+FileInfoer -f IntelSights.png
 
 Output;
 File Name        : IntelSights.png
